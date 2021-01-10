@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Lateef&display=swap');
+
+:root{
+    --bg-form__main__color : #ffffff; 
+    --bg-form__header__color: #005582;
+
+    --ff-font__color: white;
+    
+    --ff-font__logo: 'Lateef', cursive;
+    --ff-font__main: 'Dosis', sans-sarif;
+
+
+}
+
+
+
+body{
+    
+}
+
+#container__mission{
+    background-color: var(--bg-form__main__color);
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 5px;
+}
+
+header{
+    text-align: center;
+}
+header h1.logo{
+    font-family: var(--ff-font__logo);
+    
+}
+
+
+main div.header{
+    font-family: var(--ff-font__logo);
+    background-color: var(--bg-form__header__color);
+    color: var(--ff-font__color);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.fileNumberBold{
+    font-weight: 600;
+    border: solid 1px silver;
+    border-radius: 3px;
+    padding:0.5rem;
+    width: fit-content;
+}
+
+
+.idMission{
+    justify-content: right;
+    color: silver;
+    font-size: 0.75em;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn_cldl{
+    width: fit-content;
+    margin: 0.5rem;
+}
+
+p.openBtn{
+    background-color: rgb(90, 190, 90);
+    color: white;
+    border-radius: 3px;
+    padding: 0.25rem;
+}
+
+p.closedBtn{
+    background-color:tomato;
+    color: white;
+    border-radius: 3px;
+    padding: 0.25rem;
+}
